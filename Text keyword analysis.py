@@ -133,7 +133,7 @@ class TKA(object):
                                                           self.img_templates.split(".")[0], self.color_sizes))
 
     # 生成词云
-    def WC(self):
+    def generate_wordcloud(self):
         if self.create_png:
             # 转化为ListedColormap对象作为字体颜色的参数传入
             self.colormap = colors.ListedColormap(self.color_temp)
@@ -187,7 +187,7 @@ class TKA(object):
         self.input()
         self.up_to_file()
         self.repeated_color_convert()
-        self.WC()
+        self.generate_wordcloud()
 
 
 if __name__=="__main__":
