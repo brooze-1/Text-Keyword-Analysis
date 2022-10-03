@@ -442,7 +442,7 @@ if __name__=="__main__":
 
 ## 🌭脚本的发文平台及开源平台
 
-[github仓库地址🙈](https://github.com/brooze-1/Text-Keyword-analysis)<br>[gitee仓库地址🙉]()<br>
+[github仓库地址🙈](https://github.com/brooze-1/Text-Keyword-analysis)<br>[gitee仓库地址🙉](https://gitee.com/booze_place/Text-Keyword-Analysis)<br>
 [博客首页🙊](https://blog.csdn.net/booze_/article/details/127146221)<br>
 
 
