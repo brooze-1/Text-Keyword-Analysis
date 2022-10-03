@@ -137,7 +137,7 @@ if __name__=="__main__":
 
 然后生成词云这个功能就在上面文本分析功能的代码上做了些修改：
 
-```
+```python
 # coding:utf-8
 import jieba
 from wordcloud import WordCloud
