@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a792afd-4adb-4b57-b02e-fee985b594cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/文字关键字分析.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/文字关键字分析.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40cat(122, 103, 131)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40cat(60, 112, 126)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40cat(79, 96, 112)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40heart(122, 103, 131)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40heart(60, 112, 126)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40heart(79, 96, 112)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40thumb(122, 103, 131)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40thumb(60, 112, 126)).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_result/test(40thumb(79, 96, 112)).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text keyword analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text keyword analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

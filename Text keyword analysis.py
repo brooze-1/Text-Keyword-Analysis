@@ -39,7 +39,7 @@ class TKA(object):
         self.font_path = font_path
 
     # 解析文本获取关键字及其出现次数
-    def Parse_text(self):
+    def parse_text(self):
         # 使用jieba库的lcut方法对文本内容进行分词，生成列表对象
         words = jieba.lcut(self.content)
         for word in words:
@@ -64,7 +64,7 @@ class TKA(object):
 
 
     # 输出分析结果
-    def input(self):
+    def output(self):
         # list_keywords(int)参数是默认的展示条数以及存储条数当真实数据条数小于list_keywords，将数据的长度赋值给list_key_words
         if len(self.items) < self.list_keywords:
             self.list_keywords = len(self.items)
@@ -159,7 +159,7 @@ class TKA(object):
             return
 
     # (221,204,210) => '#DDCCD2' 将rgb色号转成16进制
-    def Color_to_color_value(self, value):
+    def color_to_color_value(self, value):
         digit = list(map(str, range(10))) + list("ABCDEF")
         if isinstance(value, tuple):
             string = '#'
@@ -178,13 +178,13 @@ class TKA(object):
     def repeated_color_convert(self):
         # 遍历将color_list中的rgb色号都转换成16进制存储至color_temp中
         for col in self.color_list:
-            self.color_temp.append(self.Color_to_color_value(col))
+            self.color_temp.append(self.color_to_color_value(col))
 
     # 主函数
     def main(self):
-        self.Parse_text()
+        self.parse_text()
         self.sort_content()
-        self.input()
+        self.output()
         self.up_to_file()
         self.repeated_color_convert()
         self.generate_wordcloud()
